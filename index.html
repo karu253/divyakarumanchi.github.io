@@ -5,68 +5,63 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Divya Karumanchi - Data Science Portfolio</title>
     <style>
-        body { font-family: Arial, sans-serif; margin: 40px; text-align: center; background-color: #f8f9fa; }
-        .container { max-width: 900px; margin: auto; padding: 20px; background: white; border-radius: 10px; box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1); }
+        body { font-family: Arial, sans-serif; margin: 0; padding: 0; background-color: #f4f4f4; text-align: center; }
+        .container { max-width: 800px; margin: auto; padding: 20px; background: white; border-radius: 10px; box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1); }
+        img { width: 120px; border-radius: 50%; margin-top: 10px; }
         h1 { color: #2C3E50; }
         h2 { border-bottom: 2px solid #3498DB; padding-bottom: 5px; color: #3498DB; }
-        p { font-size: 18px; }
-        a { text-decoration: none; color: #3498DB; font-weight: bold; }
-        .projects { text-align: left; margin-top: 20px; }
-        .projects a { display: block; margin-bottom: 10px; font-size: 18px; }
-        .contact p { margin: 5px 0; }
+        p { font-size: 16px; }
+        .projects a, .contact a { display: block; margin: 10px auto; padding: 10px; background: #3498DB; color: white; text-decoration: none; border-radius: 5px; width: 80%; }
+        .skills { display: flex; justify-content: center; gap: 10px; margin: 20px 0; }
+        .skills span { background: #3498DB; color: white; padding: 10px; border-radius: 5px; }
     </style>
 </head>
 <body>
     <div class="container">
+        <img src="your-profile-image.jpg" alt="Divya Karumanchi">
         <h1>Hi, I'm Divya Karumanchi 👋</h1>
         <p>Data Science Graduate | AI Enthusiast | SQL, Python, Machine Learning</p>
-        <p>📍 Florida State University | 📧 <a href="mailto:divyakarumanchi253@gmail.com">Email Me</a></p>
 
-        <h2>📌 About Me</h2>
-        <p>
-            I come from a strong **SAP ABAP** development background at **Accenture**, where I optimized business processes and worked with APIs & data analysis.
-            However, my passion for **Data Science & AI** drove me to pursue a Master’s in **Data Science at Florida State University**.
-            I am a **versatile problem solver**, eager to learn, and highly motivated to contribute meaningfully to organizations that trust me.
-            My goal is to apply my **analytical skills, data-driven decision-making, and technical expertise** to real-world business problems.
-        </p>
-
-        <h2>📊 My Projects</h2>
+        <h2>📌 Projects</h2>
         <div class="projects">
-            <p>These are some of the projects I have worked on. Links will be added soon!</p>
-            <strong>🔹 Building Chatbots with Conversation History Using LangChain</strong>
-            <p>Developed an AI chatbot leveraging LangChain to manage conversation history for personalized responses.</p>
-            <p><b>Skills Used:</b> LangChain, Python, Chatbot Development, Vector Databases.</p>
-
-            <strong>🔹 Search Engine with LangChain Tools and Agents</strong>
-            <p>Developed a search engine using AI agents for contextual searches, improving accuracy by 25%.</p>
-            <p><b>Skills Used:</b> LangChain, NLP, Python, AI Agents.</p>
-
-            <strong>🔹 Gen AI Project - Chat with SQL DB Using LangChain SQL Toolkit</strong>
-            <p>Built an AI system to interact with SQL databases, optimizing query efficiency by 40%.</p>
-            <p><b>Skills Used:</b> LangChain, SQL, Python, Database Interaction.</p>
-
-            <strong>🔹 End-to-End Data Engineering with Apache Airflow</strong>
-            <p>Designed a data pipeline using Apache Airflow, extracting data from Twitter API and storing it in Amazon S3.</p>
-            <p><b>Skills Used:</b> Apache Airflow, Python, Twitter API, ETL, AWS.</p>
-
-            <strong>🔹 Airfare Price Prediction Using Regression Analysis</strong>
-            <p>Built a model predicting flight ticket prices with ~90.8% accuracy using regression techniques.</p>
-            <p><b>Skills Used:</b> R, Regression Analysis, Box-Cox Transformation, Data Visualization.</p>
-
-            <strong>🔹 ANN-Based Churn Prediction</strong>
-            <p>Developed an ANN-based classifier to predict customer churn and deployed it using Streamlit.</p>
-            <p><b>Skills Used:</b> TensorFlow, Keras, Feature Engineering, Model Deployment.</p>
+            <a href="#">✈️ Airfare Price Prediction</a>
+            <p>Developed a predictive model to forecast flight ticket prices with ~90.8% accuracy using regression analysis. Applied feature engineering and statistical transformations to enhance the model's reliability.</p>
+            <p><strong>Skills:</strong> R, Regression Analysis, Data Preprocessing, Data Visualization</p>
+            
+            <a href="#">📉 ANN-Based Churn Prediction</a>
+            <p>Built an artificial neural network model using Keras and TensorFlow to predict customer churn with high accuracy. Preprocessed data using encoding and scaling techniques and deployed a Streamlit web app for real-time predictions.</p>
+            <p><strong>Skills:</strong> Deep Learning, TensorFlow, Keras, Feature Engineering</p>
+            
+            <a href="#">⚙️ End-to-End Data Engineering with Apache Airflow</a>
+            <p>Designed and implemented a data engineering pipeline using Apache Airflow and Python. Extracted data from Twitter API, transformed it, and stored it efficiently in Amazon S3 for further analysis.</p>
+            <p><strong>Skills:</strong> Apache Airflow, Python, ETL Processes, Cloud Deployment</p>
+            
+            <a href="#">💬 Conversational AI Chatbot with LangChain</a>
+            <p>Implemented a chatbot leveraging LangChain to retain conversation history for personalized responses. Optimized query handling by integrating a vector database.</p>
+            <p><strong>Skills:</strong> LangChain, Python, NLP, AI Agents</p>
+            
+            <a href="#">🔍 Search Engine with LangChain Tools</a>
+            <p>Developed a search engine leveraging LangChain agents to perform contextual and multi-step searches on diverse datasets, improving search accuracy by 25%.</p>
+            <p><strong>Skills:</strong> LangChain, NLP, Python, AI Agents</p>
         </div>
 
         <h2>💼 Skills</h2>
-        <p>SQL, Python, Machine Learning, Power BI, Data Visualization, LangChain, NLP, AI Agents, Deep Learning, Apache Airflow.</p>
+        <div class="skills">
+            <span>Python</span>
+            <span>SQL</span>
+            <span>Machine Learning</span>
+            <span>Power BI</span>
+            <span>Deep Learning</span>
+            <span>Apache Airflow</span>
+            <span>LangChain</span>
+        </div>
 
-        <h2>📎 Connect with Me</h2>
+        <h2>📎 Contact</h2>
         <div class="contact">
-            <p>🔗 <a href="https://linkedin.com/in/divya-karumanchi25">LinkedIn</a></p>
-            <p>🔗 <a href="https://github.com/karu253">GitHub</a></p>
+            <a href="mailto:divyakarumanchi253@gmail.com">📧 Email Me</a>
+            <a href="https://linkedin.com/in/divya">🔗 LinkedIn</a>
+            <a href="https://github.com/karu253">🔗 GitHub</a>
         </div>
     </div>
 </body>
 </html>
-
